@@ -168,3 +168,16 @@ div, p, input, button, form {
     padding: 5px;
     margin-left: 15px;
 }
+#description .box{
+    display: flex;
+    justify-content: space-between;
+}
+#description .box p{
+    width: 45%;
+}
+#description .box .img{
+    width: 45%;
+}
+#description .box img{
+    width: 100%;
+}
