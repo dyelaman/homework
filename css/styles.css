@@ -172,8 +172,12 @@ div, p, input, button, form {
     display: flex;
     justify-content: space-between;
 }
-#description .box p{
+#description .box > p{
     width: 45%;
+    margin: 0;
+}
+#description .box .img p{
+
 }
 #description .box .img{
     width: 45%;
