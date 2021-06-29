@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div, p, input, button, form {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+     content:'';
+     display: table;
+     width: 100%;
+ }
+
+#header {
+    background: #22a2ec;
+    color: #fff;
+    padding: 30px 45px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-right: 127px;
+}
+
+.main-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item {
+    float: left;
+    margin: 0px 27px 0px 0px;
+    display: block;
+}
+
+.menu-item a {
+    color: #fff;
+    font-weight: bold;
+}
+.first-item a{
+    border: 1px solid white;
+}
+
+
+.phone {
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+}
+.container{
+    display: flex;
+    margin: 30px;
+}
+#first .name{
+    margin-left: 45px;
+}
+#first .item{
+    box-sizing: border-box;
+    margin-right: 45px;
+    border: 1px solid grey;
+    margin-left: 15px;
+    font-size: 13px;
+    padding: 10px 30px;
+}
+#first .item.second{
+    border: 5px solid grey;
+}
+#first .item.shadow{
+    box-shadow: 0 0 30px;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #22a2ec;
+    color: #fff;
+    padding: 30px 45px;
+    box-sizing: border-box;
+}
+.last-text{
+    font-size: 13px;
+    margin-right: 44px;
+    float: left;
+    font-weight: bold;
+}
+.last-menu__item {
+    float: left;
+    display: block;
+    border-radius: 4px;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    margin: 0px 65px 0px 0px;
+    font-size: 12px;
+}
+
+.last-menu__item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.last-menu__item.bordered {
+    border-radius: 30px;
+}
+
+.last-menu__item.special {
+    background-color: white;
+}
+
+.last-menu__item.special a {
+    color: #22a2ec;
+}
+
+.iam{
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+}
+#description .name{
+    margin-left: 15px;
+}
+#description form{
+    width: 30%;
+}
+#description .item{
+    width: 60%;
+    margin-left: auto;
+    background-color: steelblue;
+    color: white;
+    padding: 15px 40px;
+    height: 215px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+#description .img{
+    width: 50%;
+}
+#description form .text{
+    font-size: 12px;
+    margin-left: 15px;
+}
+#description form button{
+    margin-bottom: 15px;
+    background-color: #ffc30a;
+    color: black;
+    font-weight: bold;
+    padding: 5px 40px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+#description form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 30px;
+    margin-left: 15px;
+}
+#description form input{
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 15px;
+}
